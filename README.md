@@ -1,5 +1,5 @@
 # py-host-scanner
-Simple host scanner wrriten by me
+Simple yet faster host scanner wrriten by me
 
 ## Usage:
 

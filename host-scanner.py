@@ -33,7 +33,8 @@ for ip in range(1,255):  #Brute forcing basically :P
 def scan(a): 
     for line in os.popen(a).readlines():
         if(line.count("TTL")):
-            print("[+] {} Host is alive on the network".format(line))
+            cutline=line.split(' ')
+            print("[+] {} Host is alive on the network".format(cutline[2]))
 
 
 
